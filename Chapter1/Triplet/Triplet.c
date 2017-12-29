@@ -27,13 +27,13 @@ Status DestroyTriplet(Triplet *T) {
 }
 
 
-Status Get(Triplet T, int i, ElemType *e) {
+Status Get(Triplet T[], int i, ElemType *e) {
     // 初始条件：三元组T已存在，1≤i≤3。
     // 操作结果：用e返回T的第i元的值
 
     if(i<1 || i>3)
         return ERROR;
-    *e = T[i-1];
+    *e = (ElemType) T[i - 1];
     return OK;
 }
 
@@ -44,11 +44,11 @@ Status Put(Triplet *T, int i, ElemType e) {
 
     if(i<1 || i>3)
         return ERROR;
-    T[i-1] = (Triplet) e;
+    (*T)[i-1] = e;
     return OK;
 }
 
-Status IsAscending(Triplet T) {
+Status IsAscending(Triplet T[]) {
     // 初始条件：三元组T已存在。
     // 操作结果：如果T的三个元素按升序排列，返回1，否则返回0
 
@@ -56,7 +56,7 @@ Status IsAscending(Triplet T) {
 }
 
 
-Status IsDescending(Triplet T) {
+Status IsDescending(Triplet T[]) {
     // 初始条件：三元组T已存在。
     // 操作结果：如果T的三个元素按降序排列，返回1，否则返回0
 
@@ -64,19 +64,18 @@ Status IsDescending(Triplet T) {
 }
 
 
-Status Max(Triplet T, ElemType *e) {
+void Max(Triplet T[], ElemType *e) {
     // 初始条件：三元组T已存在。
     // 操作结果：用e返回T的三个元素中的最大值
 
-    *e = max(max(T[0], T[1]), T[2]);
-    return OK;
+    *e = (ElemType) max(max(T[0], T[1]), T[2]);
 }
 
 
-Status Min(Triplet T, ElemType *e) {
+void Min(Triplet T[], ElemType *e) {
     // 初始条件：三元组T已存在。
     // 操作结果：用e返回T的三个元素中的最小值
 
-    *e = min(min(T[0], T[1]), T[2]);
+    *e = (ElemType) min(min(T[0], T[1]), T[2]);
 }
 
