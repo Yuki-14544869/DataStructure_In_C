@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.c
+../../base.h
+/cygdrive/d/Documents/Projects/DataStructure In C/base.h
+Triplet.h
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.h
+
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.h
+../../base.h
+/cygdrive/d/Documents/Projects/DataStructure In C/base.h
+
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.cpp
+Triplet.h
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.h
+
+/cygdrive/d/Documents/Projects/DataStructure In C/base.h
+stdio.h
+-
+math.h
+-
+malloc.h
+-
+process.h
+-
+minmax.h
+-
+stdlib.h
+-
+
+/cygdrive/d/Documents/Projects/DataStructure In C/main.c
+stdio.h
+-
+Chapter1/Triplet/TripletTest.cpp
+/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.cpp
+
