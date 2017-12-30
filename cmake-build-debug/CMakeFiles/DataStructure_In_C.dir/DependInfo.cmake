@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.c" "/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o"
+  "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.c" "/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o"
+  "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.c" "/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o"
   "/cygdrive/d/Documents/Projects/DataStructure In C/main.c" "/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles/DataStructure_In_C.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

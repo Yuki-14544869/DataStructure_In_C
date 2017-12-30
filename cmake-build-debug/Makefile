@@ -150,6 +150,60 @@ Chapter1/Triplet/Triplet.c.s:
 	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.s
 .PHONY : Chapter1/Triplet/Triplet.c.s
 
+Chapter1/Triplet/TripletTest.o: Chapter1/Triplet/TripletTest.c.o
+
+.PHONY : Chapter1/Triplet/TripletTest.o
+
+# target to build an object file
+Chapter1/Triplet/TripletTest.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o
+.PHONY : Chapter1/Triplet/TripletTest.c.o
+
+Chapter1/Triplet/TripletTest.i: Chapter1/Triplet/TripletTest.c.i
+
+.PHONY : Chapter1/Triplet/TripletTest.i
+
+# target to preprocess a source file
+Chapter1/Triplet/TripletTest.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.i
+.PHONY : Chapter1/Triplet/TripletTest.c.i
+
+Chapter1/Triplet/TripletTest.s: Chapter1/Triplet/TripletTest.c.s
+
+.PHONY : Chapter1/Triplet/TripletTest.s
+
+# target to generate assembly for a file
+Chapter1/Triplet/TripletTest.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.s
+.PHONY : Chapter1/Triplet/TripletTest.c.s
+
+Chapter2/LinearList/SqList.o: Chapter2/LinearList/SqList.c.o
+
+.PHONY : Chapter2/LinearList/SqList.o
+
+# target to build an object file
+Chapter2/LinearList/SqList.c.o:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o
+.PHONY : Chapter2/LinearList/SqList.c.o
+
+Chapter2/LinearList/SqList.i: Chapter2/LinearList/SqList.c.i
+
+.PHONY : Chapter2/LinearList/SqList.i
+
+# target to preprocess a source file
+Chapter2/LinearList/SqList.c.i:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.i
+.PHONY : Chapter2/LinearList/SqList.c.i
+
+Chapter2/LinearList/SqList.s: Chapter2/LinearList/SqList.c.s
+
+.PHONY : Chapter2/LinearList/SqList.s
+
+# target to generate assembly for a file
+Chapter2/LinearList/SqList.c.s:
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.s
+.PHONY : Chapter2/LinearList/SqList.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -189,6 +243,12 @@ help:
 	@echo "... Chapter1/Triplet/Triplet.o"
 	@echo "... Chapter1/Triplet/Triplet.i"
 	@echo "... Chapter1/Triplet/Triplet.s"
+	@echo "... Chapter1/Triplet/TripletTest.o"
+	@echo "... Chapter1/Triplet/TripletTest.i"
+	@echo "... Chapter1/Triplet/TripletTest.s"
+	@echo "... Chapter2/LinearList/SqList.o"
+	@echo "... Chapter2/LinearList/SqList.i"
+	@echo "... Chapter2/LinearList/SqList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

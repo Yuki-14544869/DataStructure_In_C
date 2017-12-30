@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Chapter1/Triplet/TripletTest.cpp"
+#include "Chapter1/Triplet/TripletTest.c"
 
 int main() {
 

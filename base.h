@@ -12,8 +12,8 @@
 #include <minmax.h>     // max()
 #include <stdlib.h>     //exit()
 
-//#define TRUE 1
-//#define FALSE 0
+#define TRUE 1
+#define FALSE 0
 #define OK 1
 #define ERROR 0
 //#define INFEASIBLE -1

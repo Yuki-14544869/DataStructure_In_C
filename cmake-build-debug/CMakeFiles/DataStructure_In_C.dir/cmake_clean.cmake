@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructure_In_C.dir/main.c.o"
   "CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o"
+  "CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o"
+  "CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o"
   "DataStructure_In_C.pdb"
   "DataStructure_In_C.exe"
   "libDataStructure_In_C.dll.a"

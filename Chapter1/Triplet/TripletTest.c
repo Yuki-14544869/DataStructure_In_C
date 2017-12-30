@@ -40,7 +40,7 @@ Status TripletTest() {
     Min((Triplet *)T, &m);
     printf("T中的最小值为：%d\n", m);
 
-    Status i8 = DestroyTriplet(&T); /* 函数也可以不带回返回值 */
+    Status i8 = DestroyTriplet(&T);         // 函数也可以不带回返回值
     if(i8==OK && T==NULL)
         printf("销毁 T 成功\n");
 

@@ -80,7 +80,13 @@
 		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/Triplet.h">
 			<Option target="DataStructure_In_C"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.cpp">
+		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.c">
+			<Option target="DataStructure_In_C"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.c">
+			<Option target="DataStructure_In_C"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.h">
 			<Option target="DataStructure_In_C"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/Documents/Projects/DataStructure In C/base.h">

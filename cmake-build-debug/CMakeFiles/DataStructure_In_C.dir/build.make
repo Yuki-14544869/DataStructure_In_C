@@ -105,19 +105,71 @@ CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o.provides: CMakeFi
 CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o.provides.build: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o
 
 
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o: CMakeFiles/DataStructure_In_C.dir/flags.make
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o: ../Chapter1/Triplet/TripletTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o   -c "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.c"
+
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.c" > CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.i
+
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter1/Triplet/TripletTest.c" -o CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.s
+
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.requires:
+
+.PHONY : CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.requires
+
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.provides: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.requires
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.provides.build
+.PHONY : CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.provides
+
+CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.provides.build: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o
+
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o: CMakeFiles/DataStructure_In_C.dir/flags.make
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o: ../Chapter2/LinearList/SqList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o   -c "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.c"
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.c" > CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.i
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/cygdrive/d/Documents/Projects/DataStructure In C/Chapter2/LinearList/SqList.c" -o CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.s
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.requires:
+
+.PHONY : CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.requires
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.provides: CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.requires
+	$(MAKE) -f CMakeFiles/DataStructure_In_C.dir/build.make CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.provides.build
+.PHONY : CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.provides
+
+CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.provides.build: CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o
+
+
 # Object files for target DataStructure_In_C
 DataStructure_In_C_OBJECTS = \
 "CMakeFiles/DataStructure_In_C.dir/main.c.o" \
-"CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o"
+"CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o" \
+"CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o" \
+"CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o"
 
 # External object files for target DataStructure_In_C
 DataStructure_In_C_EXTERNAL_OBJECTS =
 
 DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/main.c.o
 DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o
+DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o
+DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o
 DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/build.make
 DataStructure_In_C.exe: CMakeFiles/DataStructure_In_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable DataStructure_In_C.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Documents/Projects/DataStructure In C/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable DataStructure_In_C.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructure_In_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +179,8 @@ CMakeFiles/DataStructure_In_C.dir/build: DataStructure_In_C.exe
 
 CMakeFiles/DataStructure_In_C.dir/requires: CMakeFiles/DataStructure_In_C.dir/main.c.o.requires
 CMakeFiles/DataStructure_In_C.dir/requires: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/Triplet.c.o.requires
+CMakeFiles/DataStructure_In_C.dir/requires: CMakeFiles/DataStructure_In_C.dir/Chapter1/Triplet/TripletTest.c.o.requires
+CMakeFiles/DataStructure_In_C.dir/requires: CMakeFiles/DataStructure_In_C.dir/Chapter2/LinearList/SqList.c.o.requires
 
 .PHONY : CMakeFiles/DataStructure_In_C.dir/requires
 
